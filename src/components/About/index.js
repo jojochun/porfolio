@@ -1,6 +1,7 @@
 import React from 'react';
 
 function About() {
+
     return (
         <section id="about">
             <div className="row">
@@ -10,17 +11,17 @@ function About() {
                 <div className="nine columns main-col">
                     <h2>ABOUT ME</h2>
 
-                    <p>{bio}</p>
+                    <p>I am passionate about learning new skills and challenge myself to create things that push the boundaries of excellence. I have strong technical skills and am detail oriented and creative.</p>
                     <div className="row">
                         <div className="columns contact-details">
                             <h2>CONTACT</h2>
                             <p className="address">
-                                <span>{name}</span><br />
-                                <span>{street}<br />
-                                    {city} {state}, {zip}
+                                <span>Joanne Chun</span><br />
+                                <span>3849 Old Pali Road<br />
+                                    Honolulu Hawaii, 96817
                                 </span><br />
-                                <span>{phone}</span><br />
-                                <span>{email}</span>
+                                <span>808-780-4564</span><br />
+                                <span>jkchun@protonmail.com</span>
                             </p>
                         </div>
                         <div className="columns download">
